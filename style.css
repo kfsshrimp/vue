@@ -6,14 +6,84 @@ body{
     text-align: center;
 }
 
-input[type="button"]{
+button{
     cursor: pointer;
 }
-input[type="button"]:hover{
+button:not([disabled]):hover{
     background: #00f;
     color: #fff;
 }
 
 .pop{
     position: absolute;
+}
+
+#Vue{
+    margin: 10px;
+    padding: 10px;
+}
+
+#Map{
+
+    background: #555;
+
+}
+
+#Map>div{
+
+    border: 1px solid #fff;
+    background: #555;
+    display: inline-block;
+}
+
+#Map>div.red{
+    background: #f00;
+}
+
+#Map>div.blue{
+    background: #00f;
+}
+
+#Map .player{
+    position: absolute;
+    margin: 3px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background: #fff;
+    font-size: 8px;
+    
+}
+
+#Map .player.red{
+    border-color: #f00;
+    color: #f00;
+}
+
+#Map .player.blue{
+    border-color: #00f;
+    color:#00f;
+}
+
+
+div#Menu{
+    width: 90%;
+    margin-top: 10px;
+}
+
+div#Menu>div{
+
+    border: 1px solid #fff;
+    background: #555;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    width: auto;
+    display: flex;
+}
+
+div#Mute button{
+    margin-right:30px;
+    width: 50px;
+    height: 50px;
 }
