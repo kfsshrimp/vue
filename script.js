@@ -16,7 +16,7 @@ Ex.flag.game.site.sort((a,b)=>{
     Ex = {
         id:"vue",
         cfg:{
-            db_url:"https://voice-game-ea25d-default-rtdb.firebaseio.com/",
+            db_url:"https://speakgame-c3706-default-rtdb.firebaseio.com/",
             db_time:firebase.database.ServerValue.TIMESTAMP,
             storage:"local",
             
